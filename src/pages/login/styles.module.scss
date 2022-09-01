@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+
+  gap: 10rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--gray-850);
+
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10px;
+
+  span:nth-child(2) {
+    padding: 1rem 0;
+  }
+
+  button {
+    margin-top: 1rem;
+  }
+}
